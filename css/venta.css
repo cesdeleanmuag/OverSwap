@@ -220,7 +220,7 @@ main {
 
 .percentage {
   font-weight: bold;
-  background: linear-gradient(to right top, #ffffff, #00ff08);
+  background: linear-gradient(to right top, #ffb7b7, #ff0037);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
