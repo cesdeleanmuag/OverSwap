@@ -121,32 +121,37 @@ main {
   width: 100px;
   height:100px;
 }
-/* ancor compra */
-.Comprar a:visited{
-  transition: color 0.8s ease;
+/* Ancor compra */
+.Comprar a:link{/* Color sin nunca haber dado clic */
+  color: #31B735;
+  opacity: 0.8;
+}
+.Comprar a:visited{/* Color una vez dado clic */
   color: #31B735;
 }
-.Comprar a:hover{
-  transition: color 0.8s ease;
+.Comprar a:hover{/* Color al poner el puntero encima */
+  transition: color 0.9s ease;
   color: #00CBFF;
 }
-.Comprar a:active{
+.Comprar a:active{/* Color al presionar el puntero */
     color: #00ff15;
-    opacity: 0.8;
 }
-/* ancor venta */
-.Vender a:visited{
-  transition: color 0.8s ease;
+/* Ancor venta */
+.Vender a:link{/* Color sin nunca haber dado clic */
+  color: #C94360;
+  opacity: 0.8;
+}
+.Vender a:visited{/* Color una vez dado clic */
   color: #C94360;
 }
-.Vender a:hover{
-  transition: color 0.8s ease;
+.Vender a:hover{/* Color al poner el puntero encima */
+  transition: color 0.9s ease;
   color: #00CBFF;
 }
-.Vender a:active{
+.Vender a:active{/* Color al presionar el puntero */
     color: #dc274e;
-    opacity: 0.8;
 }
+
 .pro img {
   position: absolute;
   top: -10%;
@@ -224,11 +229,26 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.user img{
+.user img{/* Imagen del perfil */
   width: 400px;
   height: 400px;
 }
-.card img{
+/* Ancor cerrar sesion */
+.user a:link{/* Color sin nunca haber dado clic */
+  color: #ffffff;
+  opacity: 0.8;
+}
+.user a:visited{/* Color una vez dado clic */
+  color: #ffffff;
+}
+.user a:hover{/* Color al poner el puntero encima */
+  transition: color 0.9s ease;
+  color: #00CBFF;
+}
+.user a:active{/* Color al presionar el puntero */
+    color: #ffffff;
+}
+.card img{/* Imagenes donde van las tarjetas de los compradores */
   width: 200px;
   height: 200px;
 }
