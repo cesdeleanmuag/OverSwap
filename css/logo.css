@@ -1,3 +1,20 @@
+@media only screen and (max-width:1400px){
+    /* logo header */
+    .o {/* letra over. */
+    display: none;
+    }
+    .s {/* letra Swap */
+        display: none;
+    }
+    .uno {/* Linea 1 */
+        display: none;
+    }
+    .dos {/* Linea 2 */
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1401px){
 /* logo header */
 .o {/* letra over. */
     position: absolute ;
@@ -38,3 +55,4 @@
     top: 150px;
     left: 180px;
 }
+  }
