@@ -138,8 +138,9 @@
     margin-bottom: 10%;
   }
   .card img{
-    width: 200px;
-    height: 200px;
+    width: 5em;
+    height: 5em;
+
   }
   .user a:visited{
     transition: color 0.8s ease;
@@ -311,10 +312,7 @@
 .user a:active{/* Color al presionar el puntero */
     color: #00ff15;
 }
-.card img{/* Imagenes donde van las tarjetas de los compradores */
-  width: 200px;
-  height: 200px;
-} 
+
   /* aqui van los colores de compra y vender */
   /* Ancor compra */
 .Comprar{/*  */
