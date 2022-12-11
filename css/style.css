@@ -352,3 +352,6 @@
 .Vender a:active{/* Color al presionar el puntero */
     color: #dc274e;
 }
+a #logi{
+  padding: 10%;
+}
